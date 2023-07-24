@@ -13,6 +13,7 @@ public class DepartamentoService {
     @Autowired
     private DepartamentoRepository repository;
 
+
     public List<Departamento> buscarTodos(){
         return repository.findAll();
     }

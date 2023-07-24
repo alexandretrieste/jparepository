@@ -8,6 +8,7 @@ import java.util.List;
 @Table(name = "DEPARTAMENTOS")
 public class Departamento extends AbstractPersistable<Long>{
 
+
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;

@@ -20,6 +20,7 @@ import javax.sql.DataSource;
 @EnableTransactionManagement
 public class SpringDataConfig{
 
+
     @Bean
     public DataSource dataSource() {
 
